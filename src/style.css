@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../assets/font/Shabnam-Light.ttf") format("TrueType");
+}
+
+body {
+  font-family: shabnam;
+  background-color: #f2efef;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 140px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.box-product {
+  background-color: #fff;
+  max-width: 300px;
+  box-shadow: 2px 2px 10px darkgray;
+}
+
+.div-img-product {
+  display: flex;
+  justify-content: center;
+}
+
+.img-product {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.caption {
+  padding: 20px;
+}
+
+.description {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.751);
+}
+
+.discount1 {
+  margin-top: 40px;
+}
+
+.one-price {
+  color: rgb(139, 139, 139);
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.one-price::after {
+  content: "";
+  background: rgb(139, 139, 139);
+}
+
+.percentage {
+  background-color: #bee1f3;
+  color: #001eff;
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.score-and-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.svg-score {
+  width: 17px;
+}
+
+.score {
+  color: rgb(139, 139, 139);
+  font-size: 18px;
+}
+
+.two-price {
+  font-weight: 900;
+  padding-left: 5px;
+}
+
+.audio-img {
+  width: 50px;
+  /* padding: 10px; */
+}
+
+.discount-audio {
+  margin-top: 40px;
+}
+
+.otg-img {
+  width: 200px;
+}
+
+.lightning-img {
+  width: 170px;
+  margin-top: 0;
+}
