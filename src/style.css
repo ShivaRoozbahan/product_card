@@ -27,6 +27,24 @@ body {
   margin: 20px 140px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.titl-new-product {
+  position: relative;
+}
+
+.arrow-svg {
+  width: 30px;
+  position: absolute;
+  right: -30px;
+}
+
+.arrow1-svg {
+  top: -5px;
+}
+
 .section {
   display: flex;
   justify-content: center;
@@ -68,11 +86,19 @@ body {
   color: rgb(139, 139, 139);
   font-size: 15px;
   margin-right: 5px;
+
+  position: relative;
 }
 
 .one-price::after {
   content: "";
-  background: rgb(139, 139, 139);
+  display: inline-block;
+  background-color: #9b9a9a;
+  width: 50px;
+  height: 2px;
+
+  position: absolute;
+  bottom: 10px;
 }
 
 .percentage {
